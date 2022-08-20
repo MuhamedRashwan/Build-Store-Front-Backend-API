@@ -1,0 +1,18 @@
+{
+  "name": "Build_Store_Front_Backend_API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MuhamedRashwan/Build-Store-Front-Backend-API.git",
+  "author": "mrashwan500 <72583783+mrashwan500@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
